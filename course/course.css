@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(18 41 0 / 69%);
+}
+
+.container{
+  width: 70%;
+  margin: auto;
+}
+
+/* Navigation Bar */
+.first{
+    margin: 28px 0 32px 0;
+}
+.first img{
+    width: 225px;
+}
+
+.srch_div{
+    margin-right: 30px;
+    margin-top: 28px;
+    width: fit-content;
+    float: right;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#search {
+    height: 35px;
+    width: 235px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+#searchicon{
+    margin-left: 10px;
+    width: 38px;
+    height: 35px;
+    border-radius: 10px;
+}
+.second{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background: wheat;
+    column-gap: 92px;
+    justify-content: space-around;
+}
+
+.opt{
+    height: 100%;
+    width: 124px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+.opt:hover{
+    background-color: brown;
+}
+
+.opt a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+    font-weight: bold;
+}
+
+/* SlideShow */
+
+.slideShow{
+    margin-top: 20px;
+    position: relative;
+}
+
+.slideShow img{
+   width: 100%;
+   height: 350px;
+   transition: opacity 1s ease-in-out;
+   /* display: none; */
+   /* opacity: 0;*/
+}
+    
+#a,#b{
+    display: none;
+}
+
+#count{
+    position: absolute;
+    top: 3px;
+    left: 10px;
+    color: white;
+    font-size: 1.3rem;
+}
+
+/* Course Section */
+.courses{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.courseBody{
+   border: 1px solid white;
+   width: 200px;
+}
+
+.courseBody img{
+    width: 200px;
+    height: 250px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+.courseBody img:hover{
+    border-bottom: 3px solid rgb(87, 9, 9);
+}
+
+.discription{
+    padding: 20px;
+    color: white;
+    text-align: center;
+    align-self: center;
+}
+
+/* Footer */
+.footer{
+    background-color: rgb(96, 68, 68);
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.footer p{
+    margin-bottom: 40px;
+    color: white;
+}
+
+.footer a{
+    color: brown;
+     font-size: 2rem;
+     text-decoration: none;
+     margin-left: 20px;
+}
+
+.footer a:hover{
+    background-color: brown;
+    color: white;
+}

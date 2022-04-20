@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.red{
+    color: red;
+    /* width: 200px; */
+}
+
+.white{
+    color: white;
+}
+
+body{
+    background-color: rgb(18 41 0 / 69%);
+}
+
+.container{
+  width: 70%;
+  margin: auto;
+}
+
+/* Navigation Bar */
+.first{
+    margin: 28px 0 32px 0;
+}
+.first img{
+    width: 225px;
+}
+
+.srch_div{
+    margin-right: 30px;
+    margin-top: 28px;
+    width: fit-content;
+    float: right;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#search {
+    height: 35px;
+    width: 235px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+#searchicon{
+    margin-left: 10px;
+    width: 38px;
+    height: 35px;
+    border-radius: 10px;
+}
+.second{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background: wheat;
+    column-gap: 92px;
+    justify-content: space-around;
+}
+
+.opt{
+    height: 100%;
+    width: 124px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+.opt:hover{
+    background-color: brown;
+}
+
+.opt a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+    font-weight: bold;
+}
+
+/* Login form */
+.login{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.info{
+    width: 38%;
+    border: 3px solid gray;
+    border-radius: 5px;
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+h1{
+    padding: 22px;
+    border-bottom: 1.5px solid gray;
+}
+
+.form{
+    padding: 60px;
+}
+
+.input{
+    width: 230px;
+    height: 40px;
+    border: 3px solid gray;
+    border-radius: 3px;
+    margin: 4px 0 40px 0;
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    background: linear-gradient(#ffbc00 5%, #ffdd7f 100%);
+    border: 1px solid yellow;
+}
+
+.image img{
+    width: 250px;
+    height: 320px;
+}
+
+
+.btn:hover{
+    background: linear-gradient(#ffdd7f 5%, #ffbc00 100%);
+}
+/* Footer */
+.footer{
+    background-color: rgb(96, 68, 68);
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.footer p{
+    margin-bottom: 40px;
+    color: white;
+}
+
+.footer a{
+    color: brown;
+     font-size: 2rem;
+     text-decoration: none;
+     margin-left: 20px;
+}
+
+.footer a:hover{
+    background-color: brown;
+    color: white;
+}

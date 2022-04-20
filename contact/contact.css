@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(18 41 0 / 69%);
+}
+
+.container{
+  width: 70%;
+  margin: auto;
+}
+
+/* Navigation Bar */
+.first{
+    margin: 28px 0 32px 0;
+}
+.first img{
+    width: 225px;
+}
+
+.srch_div{
+    margin-right: 30px;
+    margin-top: 28px;
+    width: fit-content;
+    float: right;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#search {
+    height: 35px;
+    width: 235px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+#searchicon{
+    margin-left: 10px;
+    width: 38px;
+    height: 35px;
+    border-radius: 10px;
+}
+.second{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background: wheat;
+    column-gap: 92px;
+    justify-content: space-around;
+}
+
+.opt{
+    height: 100%;
+    width: 124px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+.opt:hover{
+    background-color: brown;
+}
+
+.opt a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+    font-weight: bold;
+}
+
+/* SlideShow */
+
+.slideShow{
+    margin-top: 20px;
+    position: relative;
+}
+
+.slideShow img{
+   width: 100%;
+   height: 350px;
+   transition: opacity 1s ease-in-out;
+   /* display: none; */
+   /* opacity: 0;*/
+}
+    
+#a,#b{
+    display: none;
+}
+
+#count{
+    position: absolute;
+    top: 3px;
+    left: 10px;
+    color: white;
+    font-size: 1.3rem;
+}
+
+/* Contact Section */
+.contact{
+    display: flex;
+    flex-direction: row;
+    height: 450px;
+    margin-top: 20px;
+}
+
+.details{
+    width: 60%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.h1{
+    font-weight: bold;
+    font-size: 1.15rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.h2{
+    font-weight: bold;
+    font-size: .89rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.button{
+    width: 100px;
+    height: 30px;
+    font-size: 17px;
+}
+
+.form input{
+    width: 200px;
+    height: 30px;
+}
+
+/* Footer */
+.footer{
+    background-color: rgb(96, 68, 68);
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.footer p{
+    margin-bottom: 40px;
+    color: white;
+}
+
+.footer a{
+    color: brown;
+     font-size: 2rem;
+     text-decoration: none;
+     margin-left: 20px;
+}
+
+.footer a:hover{
+    background-color: brown;
+    color: white;
+}
